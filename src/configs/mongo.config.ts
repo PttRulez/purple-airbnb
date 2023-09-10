@@ -20,6 +20,6 @@ const getMongoString = (configSerivce: ConfigService) => {
 		':' +
 		configSerivce.get('MONGO_PORT') +
 		'/' +
-		configSerivce.get('MONGO_AUTHDATABASE');
+		configSerivce.get('MONGO_DB');
 	return str;
 };
